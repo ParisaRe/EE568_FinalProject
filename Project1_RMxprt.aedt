@@ -1,0 +1,2958 @@
+$begin 'AnsoftProject'
+	Created='Mon Jul  4 19:47:22 2022'
+	Product='ElectronicsDesktop'
+	FileOwnedByWorkbench=false
+	$begin 'Desktop'
+		Version(2021, 2)
+		InfrastructureVersion(1, 0)
+		$begin 'FactoryHeader'
+		$end 'FactoryHeader'
+	$end 'Desktop'
+	UsesAdvancedFeatures=false
+	NextUniqueID=0
+	MoveBackwards=false
+	$begin 'HFSSEnvironment'
+		Version(1, 0)
+	$end 'HFSSEnvironment'
+	$begin 'PlanarEMEnvironment'
+		Version(1, 0)
+	$end 'PlanarEMEnvironment'
+	$begin 'Q3DEnvironment'
+		Version(1, 0)
+	$end 'Q3DEnvironment'
+	$begin '2DExtractorEnvironment'
+		Version(1, 0)
+	$end '2DExtractorEnvironment'
+	$begin 'NexximEnvironment'
+		Version(1, 0)
+	$end 'NexximEnvironment'
+	$begin 'NexximNetlistEnvironment'
+		Version(1, 0)
+	$end 'NexximNetlistEnvironment'
+	$begin 'EmitEnvironment'
+		Version(1, 0)
+	$end 'EmitEnvironment'
+	$begin 'Maxwell3DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell3DEnvironment'
+	$begin 'Maxwell2DEnvironment'
+		Version(1, 0)
+	$end 'Maxwell2DEnvironment'
+	$begin 'RMxprtEnvironment'
+		Version(1, 0)
+	$end 'RMxprtEnvironment'
+	$begin 'MaxCirEnvironment'
+		Version(1, 0)
+	$end 'MaxCirEnvironment'
+	$begin 'SimplorerEnvironment'
+		Version(1, 0)
+	$end 'SimplorerEnvironment'
+	$begin 'IcepakEnvironment'
+		Version(1, 0)
+	$end 'IcepakEnvironment'
+	$begin 'MechanicalEnvironment'
+		Version(1, 0)
+	$end 'MechanicalEnvironment'
+	$begin 'FilterDesignEnvironment'
+	$end 'FilterDesignEnvironment'
+	$begin 'SchematicEnvironment'
+		Version(1, 0)
+	$end 'SchematicEnvironment'
+	$begin 'geometry3deditor'
+		Version(1, 0)
+	$end 'geometry3deditor'
+	ReadVersion=9
+	$begin 'DesignMgrEnvironment'
+		CompInstCounter=1
+		GPortCounter=0
+		NetCounter=0
+		Alias('Ieee;Simplorer Elements\\Ieee', 'Std;Simplorer Elements\\Std', 'Basic_VHDLAMS;Simplorer Elements\\Basic Elements VHDLAMS\\Basic Elements VHDLAMS', 'Digital_Elements;Simplorer Elements\\Digital Elements\\Digital Elements', 'Transformations;Simplorer Elements\\Tools\\Transformations\\Transformations', 'HEV_VHDLAMS;Simplorer Elements\\HEV VHDLAMS\\HEV VHDLAMS', 'automotive_vda;Simplorer Elements\\VDALibs VHDLAMS\\automotive_vda', 'example_boardnet;Simplorer Elements\\VDALibs VHDLAMS\\example_boardnet', 'example_ecar;Simplorer Elements\\VDALibs VHDLAMS\\example_ecar', 'fundamentals_vda;Simplorer Elements\\VDALibs VHDLAMS\\fundamentals_vda', 'hybrid_emc_vda;Simplorer Elements\\VDALibs VHDLAMS\\hybrid_emc_vda', 'megma;Simplorer Elements\\VDALibs VHDLAMS\\megma', 'modelica_rotational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_rotational', 'modelica_thermal;Simplorer Elements\\VDALibs VHDLAMS\\modelica_thermal', 'modelica_translational;Simplorer Elements\\VDALibs VHDLAMS\\modelica_translational', 'spice2vhd;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd', 'spice2vhd_devices;Simplorer Elements\\VDALibs VHDLAMS\\spice2vhd_devices', 'aircraft_electrical_vhdlams;Simplorer Elements\\Aircraft Electrical VHDLAMS\\Aircraft Electrical VHDLAMS', 'power_system_vhdlams;Simplorer Elements\\Power System VHDLAMS\\Power System VHDLAMS')
+	$end 'DesignMgrEnvironment'
+	$begin 'ProjectDatasets'
+		NextUniqueID=0
+		MoveBackwards=false
+		DatasetType='ProjectDatasetType'
+		$begin 'DatasetDefinitions'
+		$end 'DatasetDefinitions'
+	$end 'ProjectDatasets'
+	VariableOrders[0:]
+	$begin 'Definitions'
+		$begin 'Folders'
+			Definitions(1604, 10000, 1, 1, 0, false, false)
+			Materials(1604, 9500, 9, 2, 1, false, false)
+			'Surface Materials'(1604, 9501, 33503, 3, 1, false, false)
+			Scripts(1604, 9502, 33500, 4, 1, false, false)
+			Padstacks(1604, 9003, 12, 105, 1, false, false)
+			Symbols(1604, 9001, 10, 103, 1, false, false)
+			Footprints(1604, 9002, 11, 104, 1, false, false)
+			Bondwires(1604, 9006, 12, 108, 1, false, false)
+			Components(1604, 9000, 8, 102, 1, false, false)
+			Models(1604, 9004, 13, 106, 1, false, false)
+			Packages(1604, 9005, 33502, 107, 1, false, false)
+		$end 'Folders'
+		$begin 'Materials'
+			$begin 'Cogent Power - M270-50A, 50Hz'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'CoreLossMultiCurveData'
+						property_data='coreloss_multi_curve_data'
+						coreloss_unit='w_per_kg'
+						$begin 'AllCurves'
+							$begin 'OneCurve'
+								Frequency='50Hz'
+								$begin 'Coordinates'
+									DimUnits[2: '', '']
+									Points[74: 0, 0, 0.05, 0.01, 0.1, 0.02, 0.15, 0.045, 0.2, 0.07, 0.25, 0.105, 0.3, 0.14, 0.35, 0.185, 0.4, 0.23, 0.45, 0.28, 0.5, 0.33, 0.55, 0.39, 0.6, 0.45, 0.65, 0.515, 0.7, 0.58, 0.75, 0.655, 0.8, 0.73, 0.85, 0.815, 0.9, 0.9, 0.95, 0.985, 1, 1.07, 1.05, 1.17, 1.1, 1.27, 1.15, 1.385, 1.2, 1.5, 1.25, 1.63, 1.3, 1.76, 1.35, 1.945, 1.4, 2.13, 1.45, 2.325, 1.5, 2.52, 1.55, 2.695, 1.6, 2.87, 1.65, 3, 1.7, 3.13, 1.75, 3.25, 1.8, 3.37]
+								$end 'Coordinates'
+							$end 'OneCurve'
+							$begin 'OneCurve'
+								Frequency='100Hz'
+								$begin 'Coordinates'
+									DimUnits[2: '', '']
+									Points[74: 0, 0, 0.05, 0.02, 0.1, 0.04, 0.15, 0.105, 0.2, 0.17, 0.25, 0.26, 0.3, 0.35, 0.35, 0.465, 0.4, 0.58, 0.45, 0.715, 0.5, 0.85, 0.55, 1.005, 0.6, 1.16, 0.65, 1.335, 0.7, 1.51, 0.75, 1.705, 0.8, 1.9, 0.85, 2.115, 0.9, 2.33, 0.95, 2.57, 1, 2.81, 1.05, 3.085, 1.1, 3.36, 1.15, 3.67, 1.2, 3.98, 1.25, 4.345, 1.3, 4.71, 1.35, 5.165, 1.4, 5.62, 1.45, 6.155, 1.5, 6.69, 1.55, 7.225, 1.6, 7.76, 1.65, 8.295, 1.7, 8.83, 1.75, 9.365, 1.8, 9.9]
+								$end 'Coordinates'
+							$end 'OneCurve'
+							$begin 'OneCurve'
+								Frequency='200Hz'
+								$begin 'Coordinates'
+									DimUnits[2: '', '']
+									Points[74: 0, 0, 0.05, 0.05, 0.1, 0.1, 0.15, 0.265, 0.2, 0.43, 0.25, 0.67, 0.3, 0.91, 0.35, 1.21, 0.4, 1.51, 0.45, 1.875, 0.5, 2.24, 0.55, 2.665, 0.6, 3.09, 0.65, 3.58, 0.7, 4.07, 0.75, 4.63, 0.8, 5.19, 0.85, 5.83, 0.9, 6.47, 0.95, 7.205, 1, 7.94, 1.05, 8.775, 1.1, 9.61, 1.15, 10.555, 1.2, 11.5, 1.25, 12.55, 1.3, 13.6, 1.35, 14.95, 1.4, 16.3, 1.45, 17.75, 1.5, 19.2, 1.55, 20.65, 1.6, 22.1, 1.65, 23.55, 1.7, 25, 1.75, 26.45, 1.8, 27.9]
+								$end 'Coordinates'
+							$end 'OneCurve'
+							$begin 'OneCurve'
+								Frequency='400Hz'
+								$begin 'Coordinates'
+									DimUnits[2: '', '']
+									Points[74: 0, 0, 0.05, 0.145, 0.1, 0.29, 0.15, 0.72, 0.2, 1.15, 0.25, 1.815, 0.3, 2.48, 0.35, 3.325, 0.4, 4.17, 0.45, 5.205, 0.5, 6.24, 0.55, 7.495, 0.6, 8.75, 0.65, 10.225, 0.7, 11.7, 0.75, 13.45, 0.8, 15.2, 0.85, 17.25, 0.9, 19.3, 0.95, 21.7, 1, 24.1, 1.05, 26.9, 1.1, 29.7, 1.15, 32.85, 1.2, 36, 1.25, 39.65, 1.3, 43.3, 1.35, 47.6, 1.4, 51.9, 1.45, 56.9, 1.5, 61.9, 1.55, 66.9, 1.6, 71.9, 1.65, 76.9, 1.7, 81.9, 1.75, 86.9, 1.8, 91.9]
+								$end 'Coordinates'
+							$end 'OneCurve'
+							$begin 'OneCurve'
+								Frequency='1000Hz'
+								$begin 'Coordinates'
+									DimUnits[2: '', '']
+									Points[74: 0, 0, 0.05, 0.7, 0.1, 1.4, 0.15, 3.205, 0.2, 5.01, 0.25, 7.605, 0.3, 10.2, 0.35, 13.7, 0.4, 17.2, 0.45, 21.65, 0.5, 26.1, 0.55, 31.75, 0.6, 37.4, 0.65, 44.4, 0.7, 51.4, 0.75, 60.05, 0.8, 68.7, 0.85, 79.15, 0.9, 89.6, 0.95, 102.3, 1, 115, 1.05, 130, 1.1, 145, 1.15, 160, 1.2, 175, 1.25, 190, 1.3, 205, 1.35, 220, 1.4, 235, 1.45, 250, 1.5, 265, 1.55, 280, 1.6, 295, 1.65, 310, 1.7, 325, 1.75, 340, 1.8, 355]
+								$end 'Coordinates'
+							$end 'OneCurve'
+						$end 'AllCurves'
+					$end 'CoreLossMultiCurveData'
+					$begin 'MatNotesData'
+						property_data='notes_data'
+						Notes='Electrical steel, non grain oriented - Cogent Power - M270-50A, AC - Fully Processed.\
+GUID: 43e4f009-8130-493f-be4a-e30e055f9843\
+Data provided by MagWeb and compiled by Ansys Granta (https://www.ansys.com/products/materials). B-H curve data points above H = 130000 A/m are extrapolated values.\
+ANSYS, Inc. provides no warranty for this data.'
+					$end 'MatNotesData'
+					$begin 'MatKeywordsData'
+						property_data='keywords_data'
+						Keywords='Electrical steel, non grain oriented - Cogent Power - M270-50A, AC - Fully Processed'
+					$end 'MatKeywordsData'
+				$end 'AttachedData'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BTypeForSingleCurve='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					IsTemperatureDependent=false
+					$begin 'BHCoordinates'
+						DimUnits[2: '', '']
+						Points[60: 0, 0, 5, 0.00848205, 10, 0.0186535, 20, 0.0452376, 31.5, 0.1, 42, 0.2, 49.4, 0.3, 56.1, 0.4, 63.1, 0.5, 70.7, 0.6, 79.5, 0.7, 90.1, 0.8, 103, 0.9, 121, 1, 145, 1.1, 185, 1.2, 273, 1.3, 557, 1.4, 1520, 1.5, 3560, 1.6, 6730, 1.7, 11400, 1.8, 20000, 1.89285, 40000, 2.0116, 75000, 2.11928, 130000, 2.21351, 236790, 2.3745, 431300, 2.6336, 785590, 3.0869, 1430900, 3.9022]
+					$end 'BHCoordinates'
+					$begin 'Temperatures'
+					$end 'Temperatures'
+				$end 'permeability'
+				conductivity='1818180'
+				$begin 'core_loss_type'
+					property_type='ChoiceProperty'
+					Choice='Electrical Steel'
+				$end 'core_loss_type'
+				core_loss_kh='216.205'
+				core_loss_kc='0.595593'
+				core_loss_ke='2.66671'
+				mass_density='7650'
+				$begin 'thermal_material_type'
+					property_type='ChoiceProperty'
+					Choice='Solid'
+				$end 'thermal_material_type'
+				ModTime=1656953110
+				Library='GRANTA Producers Materials Data for Simulation'
+				LibLocation='Project'
+				ModSinceLib=true
+			$end 'Cogent Power - M270-50A, 50Hz'
+			$begin 'steel_1008'
+				CoordinateSystemType='Cartesian'
+				BulkOrSurfaceType=1
+				$begin 'PhysicsTypes'
+					set('Electromagnetic', 'Thermal', 'Structural')
+				$end 'PhysicsTypes'
+				$begin 'AttachedData'
+					$begin 'MatAppearanceData'
+						property_data='appearance_data'
+						Red=161
+						Green=161
+						Blue=161
+					$end 'MatAppearanceData'
+				$end 'AttachedData'
+				$begin 'permeability'
+					property_type='nonlinear'
+					BTypeForSingleCurve='normal'
+					HUnit='A_per_meter'
+					BUnit='tesla'
+					IsTemperatureDependent=false
+					$begin 'BHCoordinates'
+						DimUnits[2: '', '']
+						Points[38: 0, 0, 159.2, 0.2402, 318.3, 0.8654, 477.5, 1.1106, 636.6, 1.2458, 795.8, 1.331, 1591.5, 1.5, 3183.1, 1.6, 4774.6, 1.683, 6366.2, 1.741, 7957.7, 1.78, 15915.5, 1.905, 31831, 2.025, 47746.5, 2.085, 63662, 2.13, 79577.5, 2.165, 159155, 2.28, 318310, 2.485, 397887, 2.5851]
+					$end 'BHCoordinates'
+					$begin 'Temperatures'
+					$end 'Temperatures'
+				$end 'permeability'
+				conductivity='2000000'
+				magnetic_loss_tangent='0'
+				$begin 'magnetic_coercivity'
+					property_type='VectorProperty'
+					Magnitude='0A_per_meter'
+					DirComp1='1'
+					DirComp2='0'
+					DirComp3='0'
+				$end 'magnetic_coercivity'
+				thermal_conductivity='45'
+				mass_density='7872'
+				specific_heat='481'
+				youngs_modulus='200000000000'
+				poissons_ratio='0.25'
+				thermal_expansion_coefficient='1.26e-05'
+				ModTime=1499970477
+				Library='Materials'
+				LibLocation='SysLibrary'
+				ModSinceLib=false
+			$end 'steel_1008'
+		$end 'Materials'
+		$begin 'SurfaceMaterials'
+		$end 'SurfaceMaterials'
+		$begin 'Scripts'
+		$end 'Scripts'
+		$begin 'Symbols'
+			$begin 'RMxprtDesign1'
+				ModTime=1656950024
+				Library=''
+				ModSinceLib=false
+				LibLocation='Project'
+				HighestLevel=1
+				Normalize=true
+				InitialLevels(0, 1)
+				$begin 'Graphics'
+					Rect(0, 0, 0, 0, 0.00254, 0.00254, 0.00508, 0.00508, 0, 0, 0)
+					Rect(0, 1, 0, 0, 0.000423333333333333, 0.00254, 0.000423333333333333, 0.000423333333333334, 0, 0, 0)
+				$end 'Graphics'
+			$end 'RMxprtDesign1'
+		$end 'Symbols'
+		$begin 'DefInfo'
+			RMxprtDesign1(1002, 0, 0, 0, '', 1656950024, '', 'RMxprtDesign1', '', '', '', '', '', 'Design.bmp', '', 'Project', '', '', 1656950024, '', 0, 0)
+		$end 'DefInfo'
+		$begin 'Compdefs'
+			$begin 'RMxprtDesign1'
+				Library=''
+				CircuitEnv=0
+				Refbase='U'
+				NumParts=1
+				ModSinceLib=true
+				$begin 'Properties'
+					TextProp('Representation', 'SRD', '', 'RMxprtDesign1')
+					TextProp('Owner', 'SRD', '', 'RMxprt')
+				$end 'Properties'
+				CompExtID=6
+			$end 'RMxprtDesign1'
+		$end 'Compdefs'
+	$end 'Definitions'
+	DesignIDServer=2
+	MoveBackwards=false
+	$begin 'RMxprtDesign'
+		RepRewriteV2=true
+		Name='RMxprtDesign1'
+		DesignID=0
+		'Steel Threshold'=100
+		'Conductor Threshold'=100000
+		'Excel Template Path'=''
+		UDDEnabled=false
+		$begin 'OutputVariable'
+			NextUniqueID=0
+			MoveBackwards=false
+		$end 'OutputVariable'
+		$begin 'MachineSetup'
+			$begin 'DesignDatasets'
+				NextUniqueID=0
+				MoveBackwards=false
+				DatasetType='DesignDatasetType'
+				$begin 'DatasetDefinitions'
+				$end 'DatasetDefinitions'
+			$end 'DesignDatasets'
+			$begin 'Properties'
+				VariableProp('Di', 'UD', '', '5484.975692mm')
+				VariableProp('Do', 'UD', '', '6094.417435mm')
+				VariableProp('L', 'UD', '', '1076.972459mm')
+				VariableProp('slot_h', 'UD', '', '102.077952mm')
+				VariableProp('slot_w', 'UD', '', '22.63265393mm')
+				VariableProp('d_o', 'UD', '', '5454.808326mm')
+				VariableProp('d_i', 'UD', '', '4000mm')
+				VariableProp('pole_w', 'UD', '', '360.2540796mm')
+				VariableProp('pole_h', 'UD', '', '358.4315657mm')
+				VariableProp('shoe_w', 'UD', '', '450.3175995mm')
+				VariableProp('shoe_h', 'UD', '', '98.78203737mm')
+			$end 'Properties'
+			VariableOrders[11: 'Di', 'Do', 'L', 'slot_h', 'slot_w', 'd_o', 'd_i', 'pole_w', 'pole_h', 'shoe_w', 'shoe_h']
+			'Machine Type'='Three Phase Synchronous Machine'
+			'Solution Type'=1
+			Units='mm'
+			$begin 'Round Wire Data'
+				$begin '4/0'
+					Diameter='11.684mm'
+					Wrap='0mm'
+				$end '4/0'
+				$begin '3/0'
+					Diameter='10.404mm'
+					Wrap='0mm'
+				$end '3/0'
+				$begin '2/0'
+					Diameter='9.266mm'
+					Wrap='0mm'
+				$end '2/0'
+				$begin '1/0'
+					Diameter='8.252mm'
+					Wrap='0mm'
+				$end '1/0'
+				$begin '1/0.5'
+					Diameter='7.788mm'
+					Wrap='0mm'
+				$end '1/0.5'
+				$begin '1'
+					Diameter='7.348mm'
+					Wrap='0mm'
+				$end '1'
+				$begin '1.5'
+					Diameter='6.934mm'
+					Wrap='0mm'
+				$end '1.5'
+				$begin '2'
+					Diameter='6.543mm'
+					Wrap='0mm'
+				$end '2'
+				$begin '2.5'
+					Diameter='6.175mm'
+					Wrap='0mm'
+				$end '2.5'
+				$begin '3'
+					Diameter='5.827mm'
+					Wrap='0mm'
+				$end '3'
+				$begin '3.5'
+					Diameter='5.499mm'
+					Wrap='0mm'
+				$end '3.5'
+				$begin '4'
+					Diameter='5.189mm'
+					Wrap='0mm'
+				$end '4'
+				$begin '4.5'
+					Diameter='4.897mm'
+					Wrap='0mm'
+				$end '4.5'
+				$begin '5'
+					Diameter='4.62mm'
+					Wrap='0mm'
+				$end '5'
+				$begin '5.5'
+					Diameter='4.361mm'
+					Wrap='0mm'
+				$end '5.5'
+				$begin '6'
+					Diameter='4.115mm'
+					Wrap='0mm'
+				$end '6'
+				$begin '6.5'
+					Diameter='3.884mm'
+					Wrap='0mm'
+				$end '6.5'
+				$begin '7'
+					Diameter='3.665mm'
+					Wrap='0mm'
+				$end '7'
+				$begin '7.5'
+					Diameter='3.459mm'
+					Wrap='0mm'
+				$end '7.5'
+				$begin '8'
+					Diameter='3.264mm'
+					Wrap='0mm'
+				$end '8'
+				$begin '8.5'
+					Diameter='3.081mm'
+					Wrap='0mm'
+				$end '8.5'
+				$begin '9'
+					Diameter='2.906mm'
+					Wrap='0mm'
+				$end '9'
+				$begin '9.5'
+					Diameter='2.743mm'
+					Wrap='0mm'
+				$end '9.5'
+				$begin '10'
+					Diameter='2.588mm'
+					Wrap='0mm'
+				$end '10'
+				$begin '10.5'
+					Diameter='2.443mm'
+					Wrap='0mm'
+				$end '10.5'
+				$begin '11'
+					Diameter='2.304mm'
+					Wrap='0mm'
+				$end '11'
+				$begin '11.5'
+					Diameter='2.174mm'
+					Wrap='0mm'
+				$end '11.5'
+				$begin '12'
+					Diameter='2.052mm'
+					Wrap='0mm'
+				$end '12'
+				$begin '12.5'
+					Diameter='1.938mm'
+					Wrap='0mm'
+				$end '12.5'
+				$begin '13'
+					Diameter='1.829mm'
+					Wrap='0mm'
+				$end '13'
+				$begin '13.5'
+					Diameter='1.725mm'
+					Wrap='0mm'
+				$end '13.5'
+				$begin '14'
+					Diameter='1.628mm'
+					Wrap='0mm'
+				$end '14'
+				$begin '14.5'
+					Diameter='1.537mm'
+					Wrap='0mm'
+				$end '14.5'
+				$begin '15'
+					Diameter='1.45mm'
+					Wrap='0mm'
+				$end '15'
+				$begin '15.5'
+					Diameter='1.369mm'
+					Wrap='0mm'
+				$end '15.5'
+				$begin '16'
+					Diameter='1.29mm'
+					Wrap='0mm'
+				$end '16'
+				$begin '16.5'
+					Diameter='1.219mm'
+					Wrap='0mm'
+				$end '16.5'
+				$begin '17'
+					Diameter='1.151mm'
+					Wrap='0mm'
+				$end '17'
+				$begin '17.5'
+					Diameter='1.085mm'
+					Wrap='0mm'
+				$end '17.5'
+				$begin '18'
+					Diameter='1.024mm'
+					Wrap='0mm'
+				$end '18'
+				$begin '18.5'
+					Diameter='0.965mm'
+					Wrap='0mm'
+				$end '18.5'
+				$begin '19'
+					Diameter='0.912mm'
+					Wrap='0mm'
+				$end '19'
+				$begin '19.5'
+					Diameter='0.861mm'
+					Wrap='0mm'
+				$end '19.5'
+				$begin '20'
+					Diameter='0.813mm'
+					Wrap='0mm'
+				$end '20'
+				$begin '20.5'
+					Diameter='0.767mm'
+					Wrap='0mm'
+				$end '20.5'
+				$begin '21'
+					Diameter='0.724mm'
+					Wrap='0mm'
+				$end '21'
+				$begin '21.5'
+					Diameter='0.683mm'
+					Wrap='0mm'
+				$end '21.5'
+				$begin '22'
+					Diameter='0.643mm'
+					Wrap='0mm'
+				$end '22'
+				$begin '22.5'
+					Diameter='0.607mm'
+					Wrap='0mm'
+				$end '22.5'
+				$begin '23'
+					Diameter='0.574mm'
+					Wrap='0mm'
+				$end '23'
+				$begin '23.5'
+					Diameter='0.541mm'
+					Wrap='0mm'
+				$end '23.5'
+				$begin '24'
+					Diameter='0.511mm'
+					Wrap='0mm'
+				$end '24'
+				$begin '24.5'
+					Diameter='0.483mm'
+					Wrap='0mm'
+				$end '24.5'
+				$begin '25'
+					Diameter='0.455mm'
+					Wrap='0mm'
+				$end '25'
+				$begin '25.5'
+					Diameter='0.429mm'
+					Wrap='0mm'
+				$end '25.5'
+				$begin '26'
+					Diameter='0.404mm'
+					Wrap='0mm'
+				$end '26'
+				$begin '26.5'
+					Diameter='0.381mm'
+					Wrap='0mm'
+				$end '26.5'
+				$begin '27'
+					Diameter='0.361mm'
+					Wrap='0mm'
+				$end '27'
+				$begin '27.5'
+					Diameter='0.34mm'
+					Wrap='0mm'
+				$end '27.5'
+				$begin '28'
+					Diameter='0.32mm'
+					Wrap='0mm'
+				$end '28'
+				$begin '28.5'
+					Diameter='0.302mm'
+					Wrap='0mm'
+				$end '28.5'
+				$begin '29'
+					Diameter='0.287mm'
+					Wrap='0mm'
+				$end '29'
+				$begin '29.5'
+					Diameter='0.269mm'
+					Wrap='0mm'
+				$end '29.5'
+				$begin '30'
+					Diameter='0.254mm'
+					Wrap='0mm'
+				$end '30'
+				$begin '30.5'
+					Diameter='0.239mm'
+					Wrap='0mm'
+				$end '30.5'
+				$begin '31'
+					Diameter='0.226mm'
+					Wrap='0mm'
+				$end '31'
+				$begin '31.5'
+					Diameter='0.213mm'
+					Wrap='0mm'
+				$end '31.5'
+				$begin '32'
+					Diameter='0.203mm'
+					Wrap='0mm'
+				$end '32'
+				$begin '32.5'
+					Diameter='0.19mm'
+					Wrap='0mm'
+				$end '32.5'
+				$begin '33'
+					Diameter='0.18mm'
+					Wrap='0mm'
+				$end '33'
+				$begin '33.5'
+					Diameter='0.17mm'
+					Wrap='0mm'
+				$end '33.5'
+				$begin '34'
+					Diameter='0.16mm'
+					Wrap='0mm'
+				$end '34'
+				$begin '34.5'
+					Diameter='0.15mm'
+					Wrap='0mm'
+				$end '34.5'
+				$begin '35'
+					Diameter='0.142mm'
+					Wrap='0mm'
+				$end '35'
+				$begin '35.5'
+					Diameter='0.135mm'
+					Wrap='0mm'
+				$end '35.5'
+				$begin '36'
+					Diameter='0.127mm'
+					Wrap='0mm'
+				$end '36'
+				$begin '36.5'
+					Diameter='0.119mm'
+					Wrap='0mm'
+				$end '36.5'
+				$begin '37'
+					Diameter='0.114mm'
+					Wrap='0mm'
+				$end '37'
+				$begin '37.5'
+					Diameter='0.107mm'
+					Wrap='0mm'
+				$end '37.5'
+				$begin '38'
+					Diameter='0.102mm'
+					Wrap='0mm'
+				$end '38'
+				$begin '38.5'
+					Diameter='0.094mm'
+					Wrap='0mm'
+				$end '38.5'
+				$begin '39'
+					Diameter='0.089mm'
+					Wrap='0mm'
+				$end '39'
+				$begin '39.5'
+					Diameter='0.084mm'
+					Wrap='0mm'
+				$end '39.5'
+				$begin '40'
+					Diameter='0.079mm'
+					Wrap='0mm'
+				$end '40'
+				$begin '40.5'
+					Diameter='0.076mm'
+					Wrap='0mm'
+				$end '40.5'
+				$begin '41'
+					Diameter='0.071mm'
+					Wrap='0mm'
+				$end '41'
+				$begin '41.5'
+					Diameter='0.066mm'
+					Wrap='0mm'
+				$end '41.5'
+				$begin '42'
+					Diameter='0.064mm'
+					Wrap='0mm'
+				$end '42'
+				$begin '42.5'
+					Diameter='0.061mm'
+					Wrap='0mm'
+				$end '42.5'
+				$begin '43'
+					Diameter='0.056mm'
+					Wrap='0mm'
+				$end '43'
+				$begin '43.5'
+					Diameter='0.053mm'
+					Wrap='0mm'
+				$end '43.5'
+				$begin '44'
+					Diameter='0.051mm'
+					Wrap='0mm'
+				$end '44'
+				$begin '44.5'
+					Diameter='0.048mm'
+					Wrap='0mm'
+				$end '44.5'
+				$begin '45'
+					Diameter='0.0447mm'
+					Wrap='0mm'
+				$end '45'
+				$begin '46'
+					Diameter='0.0399mm'
+					Wrap='0mm'
+				$end '46'
+				$begin '47'
+					Diameter='0.0356mm'
+					Wrap='0mm'
+				$end '47'
+				$begin '48'
+					Diameter='0.0315mm'
+					Wrap='0mm'
+				$end '48'
+				$begin '49'
+					Diameter='0.0282mm'
+					Wrap='0mm'
+				$end '49'
+				$begin '50'
+					Diameter='0.0251mm'
+					Wrap='0mm'
+				$end '50'
+				$begin '51'
+					Diameter='0.0224mm'
+					Wrap='0mm'
+				$end '51'
+				$begin '52'
+					Diameter='0.0198mm'
+					Wrap='0mm'
+				$end '52'
+			$end 'Round Wire Data'
+			$begin 'Rectangle Wire Data'
+				'Max(B/A)'=13
+				'Min(B/A)'=1.1
+				SkipOne=true
+				$begin 'AR Data'
+					A='1.02mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.15mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.29mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.45mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.63mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='1.83mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.05mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.3mm'
+					ChamferRadius='0.5mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.59mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='2.91mm'
+					ChamferRadius='0.67mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.26mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='3.66mm'
+					ChamferRadius='0.8mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.12mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='4.62mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.19mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='5.83mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'AR Data'
+					A='6.54mm'
+					ChamferRadius='1mm'
+				$end 'AR Data'
+				$begin 'B Data'
+					B='2.05mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.3mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.44mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.59mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='2.91mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.08mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.26mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.46mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.66mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='3.88mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.12mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.36mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.62mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='4.9mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.19mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.5mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='5.83mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.18mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.54mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='6.93mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.35mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='7.79mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.25mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='8.74mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.27mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='9.82mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='10.4mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.03mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='11.68mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='12.38mm'
+				$end 'B Data'
+				$begin 'B Data'
+					B='13.12mm'
+				$end 'B Data'
+			$end 'Rectangle Wire Data'
+			NextUniqueID=18
+			MoveBackwards=false
+			$begin 'Machine'
+				DataType='General Data'
+				DataLevel=0
+				DataOrder=0
+				DataID=11
+				ParentID=-1
+				DataName='Machine'
+				FrictionLoss='0W'
+				WindLoss='0W'
+				ReferenceSpeed='187.5rpm'
+				NumberOfPoles=32
+			$end 'Machine'
+			$begin 'Stator'
+				DataType='Stator'
+				DataLevel=1
+				DataOrder=1
+				DataID=12
+				ParentID=-1
+				DataName='Stator'
+				SkewWidth='0'
+				NumberOfSlots=252
+				LaminationSectors=0
+				PressBoardThickness='0mm'
+				OuterDiameter='Do'
+				InnerDiameter='Di'
+				Length='L'
+				StackingFactor=0.95
+				SteelType='Cogent Power - M270-50A, 50Hz'
+				SlotType='6'
+			$end 'Stator'
+			$begin 'Rotor'
+				DataType='Rotor'
+				DataLevel=1
+				DataOrder=2
+				DataID=13
+				ParentID=-1
+				DataName='Rotor'
+				OuterDiameter='d_o'
+				InnerDiameter='d_i'
+				Length='L'
+				SteelType='Cogent Power - M270-50A, 50Hz'
+				DataType='Pole'
+				DataLevel=1
+				DataOrder=2
+				DataID=0
+				ParentID=13
+				DataName='Pole'
+				SecondAirGap='0mm'
+				PoleBodyHeight='pole_h'
+				PoleShoeHeight='shoe_h'
+				Off2x='0mm'
+				Off2y='0mm'
+				PoleArcOffset='0mm'
+				SecondPoleArc=false
+				PoleBodyWidth='pole_w'
+				PoleShoeWidth='shoe_w'
+				PoleStackingFactor=0.97
+				PoleSteelType='steel_1008'
+				PressBoardThickness='0mm'
+				MagneticPressBoard=false
+				StackingFactor=0.95
+				ShoeInsulation='0mm'
+				PoleInsulation='0mm'
+				WindingClearance='0mm'
+			$end 'Rotor'
+			$begin 'Shaft'
+				DataType='Shaft'
+				DataLevel=1
+				DataOrder=3
+				DataID=14
+				ParentID=-1
+				DataName='Shaft'
+				MagneticShaft=false
+			$end 'Shaft'
+			$begin 'Slot'
+				DataType='Slot'
+				DataLevel=2
+				DataOrder=1
+				DataID=15
+				ParentID=12
+				DataName='Slot'
+				Hs0='1mm'
+				Hs1='1mm'
+				Hs2='slot_h'
+				Bs0='0mm'
+				Bs1='slot_w'
+				Bs2='slot_w'
+				Rs='0mm'
+				AutoDesign=false
+				ParallelTooth=false
+				ToothWidth='0mm'
+			$end 'Slot'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=2
+				DataID=16
+				ParentID=12
+				DataName='Winding'
+				WindingType='Whole-Coiled'
+				WindingLayers='2'
+				InputHalfTurnLength=false
+				HalfTurnLength='0mm'
+				ParallelBranches=1
+				ConductorsPerSlot='2'
+				CoilPitch=8
+				EndAdjustment='0mm'
+				BaseInnerRadius='0mm'
+				TipInnerDiameter='0mm'
+				EndClearance='0mm'
+				CoilWrap='0mm'
+				SlotLiner='0mm'
+				WedgeThickness='0mm'
+				LayerInsulation='0mm'
+				BottomInsulation='0mm'
+				LimitedFillFactor='0.75'
+				WdgNumberofPriodicMultipler=1
+				WdgConstantPitch=false
+				WdgConstantTurns=false
+				Wdgcoil_turns[0:]
+				Wdgcoil_name[0:]
+				Wdgcoil_go[0:]
+				Wdgcoil_re[0:]
+				NumberOfStrands='40'
+				WireWrap='0mm'
+				InterturnInsulation='0mm'
+				WireDiameter='0mm'
+				WireWidth='7mm'
+				WireThickness='1.9mm'
+				Gauge='STANDARDRECT'
+				IsRectWireType=false
+				MixedDiamter[0:]
+				MixedNumber[0:]
+				MixedWidth[0:]
+				MixedThickness[0:]
+				WireFillet[0:]
+			$end 'Winding'
+			$begin 'Winding'
+				DataType='Winding'
+				DataLevel=2
+				DataOrder=1
+				DataID=17
+				ParentID=13
+				DataName='Winding'
+				WindingType='EdgewiseCoil'
+				ParallelBranches=1
+				ConductorsPerPole='72'
+				AxialClearance='0mm'
+				LimitedCrossWidth='0mm'
+				LimitedCrossHeight='0mm'
+				NumberOfStrands='0'
+				WireWrap='0mm'
+				InterturnInsulation='0mm'
+				WireDiameter='0mm'
+				WireWidth='50mm'
+				WireThickness='1.7mm'
+				Gauge='STANDARDRECT'
+				IsRectWireType=false
+				MixedDiamter[0:]
+				MixedNumber[0:]
+				MixedWidth[0:]
+				MixedThickness[0:]
+				WireFillet[0:]
+				WindingFillet='0mm'
+			$end 'Winding'
+		$end 'MachineSetup'
+		$begin 'ParameterSetup'
+		$end 'ParameterSetup'
+		$begin 'AnalysisSetup'
+			$begin 'SolveSetups'
+				NextUniqueID=1
+				MoveBackwards=false
+				$begin 'Setup1'
+					ID=0
+					SetupType='SYNM'
+					Enabled=true
+					$begin 'MeshLink'
+						ImportMesh=false
+					$end 'MeshLink'
+					RatedOutputPower='44000'
+					RatedVoltage='13800V'
+					RatedSpeed='187.5rpm'
+					OperatingTemperature='75cel'
+					OperationType='Generator'
+					LoadType='InfiniteBus'
+					RatedPowerFactor=0.9
+					WindingConnection=false
+					ExciterEfficiency=100
+					StartingFieldResistance='0ohm'
+					InputExcitingCurrent=true
+					ExcitingCurrent='340.497221A'
+				$end 'Setup1'
+			$end 'SolveSetups'
+		$end 'AnalysisSetup'
+		$begin 'Optimetrics'
+			$begin 'OptimetricsSetups'
+				NextUniqueID=0
+				MoveBackwards=false
+			$end 'OptimetricsSetups'
+		$end 'Optimetrics'
+		$begin 'Solutions'
+		$end 'Solutions'
+		$begin 'SolutionManager'
+			$begin 'SimSetup'
+				TypeName='BaseSetup'
+				ID=10
+				Name='Setup1'
+				$begin 'Solution'
+					ID=11
+					Name='Performance'
+					$begin 'SimDataExtractor'
+						$begin 'QuantityIDs'
+							NextUniqueID=0
+							MoveBackwards=false
+							IDMap()
+						$end 'QuantityIDs'
+						SimValue('ArmaturePhaseCurrent', 1, 76, false, SimValueID=40, 53022, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+						$begin 'Sweeps'
+							$begin 'Sweep'
+								Variable='Di'
+								Column='5484.975692mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='Do'
+								Column='6094.417435mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='L'
+								Column='1076.972459mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='slot_h'
+								Column='102.077952mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='slot_w'
+								Column='22.63265393mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='d_o'
+								Column='5454.808326mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='d_i'
+								Column='4000mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='pole_w'
+								Column='360.2540796mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='pole_h'
+								Column='358.4315657mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='shoe_w'
+								Column='450.3175995mm'
+								Units='mm'
+							$end 'Sweep'
+							$begin 'Sweep'
+								Variable='shoe_h'
+								Column='98.78203737mm'
+								Units='mm'
+							$end 'Sweep'
+						$end 'Sweeps'
+					$end 'SimDataExtractor'
+				$end 'Solution'
+			$end 'SimSetup'
+			$begin 'Version ID Map'
+				V=26
+				$begin 'Setup'
+					N='Setup1'
+					V=26
+					Soln(N='Performance', V=26)
+				$end 'Setup'
+			$end 'Version ID Map'
+			$begin 'ID Map'
+				$begin 'Setup'
+					N='Setup1'
+					I=10
+					Soln(N='Performance', I=11)
+				$end 'Setup'
+			$end 'ID Map'
+			ValidationCacheHeader=''
+		$end 'SolutionManager'
+		$begin 'UserDefinedSolutionMgr'
+			NextUniqueID=1000000
+			MoveBackwards=false
+		$end 'UserDefinedSolutionMgr'
+		$begin 'DatasetSolutionMgr'
+			NextUniqueID=2000000
+			MoveBackwards=false
+		$end 'DatasetSolutionMgr'
+		Notes=$begin_cdata$ $end_cdata$
+		$begin 'AnimationSetups'
+		$end 'AnimationSetups'
+		CacheHeaderFile='HDR780E1382816569532883.tmp'
+	$end 'RMxprtDesign'
+	$begin 'DataInstances'
+		DesignEditor='TopLevel'
+		Refdes('0', 'U1')
+		$begin 'CompInstances'
+			$begin 'Compinst'
+				ID='0'
+				Status='Status'
+				CompName='RMxprtDesign1'
+				GatesInUse()
+				$begin 'Properties'
+					TextProp('ID', 'SRID', '', '0')
+				$end 'Properties'
+			$end 'Compinst'
+		$end 'CompInstances'
+		$begin 'Instance'
+			DesignEditor='RMxprtDesign1'
+			ID='0'
+			$begin 'RMxprtDesignInstance'
+				DesignInstanceID=1
+				$begin 'WindowPosition'
+					$begin 'EditorWindow'
+						Circuit(Machine(Frame(ActivePage('Main', View(WindowPos(3, -1, -1, -9, -38, 0, 0, 1206, 392))))))
+					$end 'EditorWindow'
+				$end 'WindowPosition'
+				$begin 'ReportSetup'
+					$begin 'ReportManager'
+						$begin 'Reports'
+							$begin 'Current Plot 1'
+								ReportID=1
+								ReportName='Current Plot 1'
+								$begin 'TraceDef'
+									TraceDefinitionType='TraceDefinition'
+									$begin 'DesignSolnDefn'
+										$begin 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+											DesignID=0
+											SolutionID=11
+											$begin 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+												ReportType=0
+												SimValueContext(53022, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+											$end 'REPORT_TYPE_SIM_VALUE_CONTEXT'
+										$end 'DESIGN_SOLUTION_SIM_VALUE_CONTEXT'
+									$end 'DesignSolnDefn'
+									ID=0
+									VersionID=1
+									Name='ArmaturePhaseCurrent'
+									TieNameToExpr=true
+									$begin 'Components'
+										$begin 'TraceComponentDefinition'
+											Expr='Ang'
+										$end 'TraceComponentDefinition'
+										$begin 'TraceComponentDefinition'
+											Expr='ArmaturePhaseCurrent'
+										$end 'TraceComponentDefinition'
+									$end 'Components'
+									$begin 'ExtendedTraceInfo'
+										NumPoints=0
+										TraceType=0
+										Offset=0
+										XLabel=''
+										SamplingPeriod='0'
+										SamplingPeriodOffset='0'
+										AutoDelay=true
+										DelayValue='0ps'
+										AutoCompCrossAmplitude=true
+										CrossingAmplitude='0mV'
+										YAxis=1
+										AutoCompEyeMeasurementPoint=true
+										EyeMeasurementPoint='0ps'
+										EyePamLow()
+										EyePamVRef()
+										EyePamHigh()
+										EyePamNames()
+										EyePamStrictVRef=false
+									$end 'ExtendedTraceInfo'
+									$begin 'TraceFamiliesDisplayDefinition'
+										DisplayFamiliesType='DisplayAll'
+									$end 'TraceFamiliesDisplayDefinition'
+									$begin 'PointsetDefinition'
+										$begin 'SubsweepDefParamsContainer'
+											$begin '0'
+												SubsweepType='Special'
+												SweepVariableName='Ang'
+												HasMinMaxLimit=false
+											$end '0'
+											$begin '1'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='Di'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '1'
+											$begin '2'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='Do'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '2'
+											$begin '3'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='L'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '3'
+											$begin '4'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='slot_h'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '4'
+											$begin '5'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='slot_w'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '5'
+											$begin '6'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='d_o'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '6'
+											$begin '7'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='d_i'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '7'
+											$begin '8'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='pole_w'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '8'
+											$begin '9'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='pole_h'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '9'
+											$begin '10'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='shoe_w'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '10'
+											$begin '11'
+												SubsweepType='Regular'
+												SubsweepChoiceType='Nominal'
+												SweepVariableName='shoe_h'
+												AllowSelecteValues=true
+												SweepHasConsistentValues=true
+											$end '11'
+										$end 'SubsweepDefParamsContainer'
+										FamilyBlock()
+									$end 'PointsetDefinition'
+									DesignInstanceID=1
+								$end 'TraceDef'
+							$end 'Current Plot 1'
+						$end 'Reports'
+						NextUniqueID=2
+						MoveBackwards=false
+						$begin 'NextVersID'
+							NextUniqueID=2
+							MoveBackwards=false
+						$end 'NextVersID'
+					$end 'ReportManager'
+					$begin 'Reports'
+						$begin 'Current Plot 1'
+							ReportID=1
+							$begin 'Report2D'
+								name='Current Plot 1'
+								ReportID=1
+								ReportType=0
+								DisplayType=1
+								Title=''
+								Domain=''
+								$begin 'Migration'
+									MigVersion(0, 0, 'mig(0.0)')
+								$end 'Migration'
+								$begin 'Graph2DsV2'
+									$begin 'Graph2D'
+										TraceDefID=0
+										Type='Continuous'
+										Axis='Y1'
+									$end 'Graph2D'
+								$end 'Graph2DsV2'
+								$begin 'PlotDisplayDataManager'
+									NextUniqueID=39
+									MoveBackwards=false
+									$begin 'PlotHeaderDataSource'
+										CompanyName=''
+										ShowDesignName=true
+										ProjectFileName=''
+									$end 'PlotHeaderDataSource'
+									StockNameIDMap(AxisX=1, AxisY1=2, AxisY10=16, AxisY11=17, AxisY12=18, AxisY13=19, AxisY14=20, AxisY15=21, AxisY16=22, AxisY17=23, AxisY18=24, AxisY19=25, AxisY2=8, AxisY20=26, AxisY3=9, AxisY4=10, AxisY5=11, AxisY6=12, AxisY7=13, AxisY8=14, AxisY9=15, Grid=27, Header=0, Legend=5, XYHorizScroller=7)
+									$begin 'SourceList'
+									$end 'SourceList'
+									Version='17.0:20150830'
+									$begin 'DocAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=1
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=5
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=3.14159265358979
+														TickSpacing=0.349065850398866
+														ManualUnits=false
+														Units='deg'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=6.28318530717959
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=2
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=4500
+														TickSpacing=500
+														ManualUnits=false
+														Units='kA'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=9000
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocAttributes'
+									$begin 'DisplayTypeAttributes'
+										$begin 'PlotAttributeStoreMap'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=27
+													$begin 'CartesianGridDescAttribute'
+														ShowXMinor=true
+														ShowYMinor=true
+														ShowXMajor=true
+														ShowYMajor=true
+														ShowBorder=true
+													$end 'CartesianGridDescAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=37
+													$begin 'CurveCartesianAttribute'
+														YAxis='Y1'
+													$end 'CurveCartesianAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=37
+													$begin 'CurveRenderAttribute'
+														$begin 'LineRenderAttribute'
+															LineStyle='Solid'
+															LineWidth=3
+															LineColor(R=237, G=28, B=36)
+														$end 'LineRenderAttribute'
+														TraceType='Continuous'
+														SymbolType='HollowHorizontalLeftTriangle'
+														SymbolColor(R=155, G=93, B=112)
+														ShowSymbols=false
+														SymbolFrequency=15
+														ShowArrows=false
+													$end 'CurveRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=0
+													$begin 'HeaderRenderAttribute'
+														$begin 'TitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=14
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TitleFont'
+														$begin 'SubtitleFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=10
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'SubtitleFont'
+													$end 'HeaderRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=5
+													$begin 'LegendRenderAttribute'
+														$begin 'LegendTableAttrib'
+															$begin 'TableRenderAttribute'
+																$begin 'TableFontAttrib'
+																	$begin 'FontAttribute'
+																		$begin 'Font'
+																			HeightInPts=8
+																			Width=0
+																			Escapement=0
+																			Orientation=0
+																			Weight=400
+																			Italic=0
+																			Underline=0
+																			StrikeOut=0
+																			CharSet=0
+																			OutPrecision=7
+																			ClipPrecision=48
+																			Quality=6
+																			PitchAndFamily=0
+																			FaceName='Arial'
+																		$end 'Font'
+																		Color(R=0, G=0, B=0)
+																	$end 'FontAttribute'
+																$end 'TableFontAttrib'
+																$begin 'TableTitleFontAttrib'
+																	$begin 'FontAttribute'
+																		$begin 'Font'
+																			HeightInPts=8
+																			Width=0
+																			Escapement=0
+																			Orientation=0
+																			Weight=400
+																			Italic=0
+																			Underline=0
+																			StrikeOut=0
+																			CharSet=0
+																			OutPrecision=7
+																			ClipPrecision=48
+																			Quality=6
+																			PitchAndFamily=0
+																			FaceName='Arial'
+																		$end 'Font'
+																		Color(R=0, G=0, B=0)
+																	$end 'FontAttribute'
+																$end 'TableTitleFontAttrib'
+																TableBorderLineWidth=1
+																TableBorderLineColor=0
+																TableGridLineWidth=1
+																TableGridLineColor=12632256
+																TableBackgroundColor=16777215
+																TableHeaderBackgroundColor=14408667
+															$end 'TableRenderAttribute'
+														$end 'LegendTableAttrib'
+														ShowTraceName=true
+														ShowSolutionName=true
+														ShowVariationKey=true
+														FileNameDisplayModeInVariationKey=0
+														DockMode='None'
+													$end 'LegendRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+											$begin 'MainMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=1
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=2
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=8
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=9
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=10
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=11
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=12
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=13
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=14
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=15
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=16
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=17
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=18
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=19
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=20
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=21
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=22
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=23
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=24
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=25
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+												$begin 'SubMapItem'
+													DataSourceID=26
+													$begin 'LineAxisRenderAttribute'
+														DecimalFieldWidth=3
+														DecimalFieldPrecision=2
+														ManualTitle=''
+														AxisColor(R=0, G=0, B=0)
+														MinScale=0
+														MaxScale=1
+														TickSpacing=1
+														ManualUnits=false
+														Units='mm'
+														AxisScale='Linear'
+														NumberFormat='Auto'
+														$begin 'TextFont'
+															$begin 'FontAttribute'
+																$begin 'Font'
+																	HeightInPts=9
+																	Width=0
+																	Escapement=0
+																	Orientation=0
+																	Weight=400
+																	Italic=0
+																	Underline=0
+																	StrikeOut=0
+																	CharSet=0
+																	OutPrecision=7
+																	ClipPrecision=48
+																	Quality=6
+																	PitchAndFamily=0
+																	FaceName='Arial'
+																$end 'Font'
+																Color(R=0, G=0, B=0)
+															$end 'FontAttribute'
+														$end 'TextFont'
+														InfMapMode=false
+														InfMapValue=1.79769313486232e+306
+														AutoRangeMin=true
+														AutoRangeMax=true
+														AutoSpacing=true
+														kNumMinorDivisions=5
+														ShowAxisTitle=true
+														ShowAxisUnits=true
+														vwm='FullWnd'
+														viewWndWd=#nan
+														ActivateMargins=true
+														MarginPercent=0
+														NeverCollapse=false
+														AxisStripes=true
+													$end 'LineAxisRenderAttribute'
+												$end 'SubMapItem'
+											$end 'MainMapItem'
+										$end 'PlotAttributeStoreMap'
+									$end 'DisplayTypeAttributes'
+									$begin 'DocDefaultAttributes'
+										$begin 'PlotAttributeStoreMap'
+										$end 'PlotAttributeStoreMap'
+									$end 'DocDefaultAttributes'
+									$begin 'PerViewPlotAttributeStoreMap'
+										$begin 'MapItem'
+											ItemID=36
+											$begin 'PlotAttributeStoreMap'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=665
+																Left=1164
+																Bottom=9731
+																Right=8329
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=28
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=665
+																Left=1164
+																Bottom=9731
+																Right=8329
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=35
+														$begin 'BasicLayoutAttribute'
+															$begin 'LayoutRect'
+																Top=75
+																Left=75
+																Bottom=9925
+																Right=844
+															$end 'LayoutRect'
+														$end 'BasicLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=31
+														$begin 'CartesianAxisLayoutAttribute'
+															$begin 'AxisRect'
+																Top=75
+																Left=8329
+																Bottom=9925
+																Right=9925
+															$end 'AxisRect'
+															$begin 'GridRect'
+																Top=665
+																Left=1164
+																Bottom=9731
+																Right=8329
+															$end 'GridRect'
+															AxisCollapsed=false
+															AxisExpandCollapseByUser=false
+														$end 'CartesianAxisLayoutAttribute'
+													$end 'SubMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=32
+														$begin 'CartesianAxisLayoutAttribute'
+															$begin 'AxisRect'
+																Top=75
+																Left=1164
+																Bottom=665
+																Right=8329
+															$end 'AxisRect'
+															$begin 'GridRect'
+																Top=665
+																Left=1164
+																Bottom=9731
+																Right=8329
+															$end 'GridRect'
+															AxisCollapsed=false
+															AxisExpandCollapseByUser=false
+														$end 'CartesianAxisLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=4
+														$begin 'CartesianCurveGroupLayoutAttribute'
+															X_spc=0.349065850398866
+															X_fwd=5
+															X_fpr=2
+															Y1_spc=1000
+															Y1_fwd=3
+															Y1_fpr=2
+														$end 'CartesianCurveGroupLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+												$begin 'MainMapItem'
+													$begin 'SubMapItem'
+														DataSourceID=6
+														$begin 'DockableOverlayLayoutAttribute'
+															$begin 'Dock_0'
+																$begin 'OverlayLayoutAttribute'
+																	$begin 'BoundingRect'
+																		Top=4850
+																		Left=944
+																		Bottom=9850
+																		Right=8444
+																	$end 'BoundingRect'
+																	ModifySize=false
+																	ModifyPosition=false
+																$end 'OverlayLayoutAttribute'
+															$end 'Dock_0'
+														$end 'DockableOverlayLayoutAttribute'
+													$end 'SubMapItem'
+												$end 'MainMapItem'
+											$end 'PlotAttributeStoreMap'
+											PlotType=1
+										$end 'MapItem'
+									$end 'PerViewPlotAttributeStoreMap'
+									IsViewAttribServer=false
+									ViewID=-1
+									$begin 'SourceIDMap'
+										IDMapItem(0, 0, -1, 37)
+									$end 'SourceIDMap'
+									$begin 'TraceCharacteristicsMgr'
+									$end 'TraceCharacteristicsMgr'
+									$begin 'CartesianXMarkerManager'
+										RefMarkerID=-1
+										CurrentMarkerID=-1
+										$begin 'ReferenceCurves'
+										$end 'ReferenceCurves'
+									$end 'CartesianXMarkerManager'
+									$begin 'CartesianYMarkerManager'
+									$end 'CartesianYMarkerManager'
+									XAxisStackID=-1
+									$begin 'AllTransSrcDwg'
+										$begin 'PT'
+											ID=1
+											TransSrcDwg(-1, 0, 35, 1, 31, 2, 32, 5, 6, 27, 28, 37, 38)
+										$end 'PT'
+									$end 'AllTransSrcDwg'
+									$begin 'AllPtSVID'
+										PtID(1, -1, 4)
+									$end 'AllPtSVID'
+								$end 'PlotDisplayDataManager'
+							$end 'Report2D'
+						$end 'Current Plot 1'
+					$end 'Reports'
+					$begin 'ReportsWindowInfoList'
+						$begin 'Current Plot 1'
+							ReportID=1
+							$begin 'WindowInfoList'
+								$begin 'Report2D'
+									$begin 'ViewInfo'
+										$begin 'WrapperView'
+											ID(36)
+										$end 'WrapperView'
+										$begin 'WrapperDoc'
+											HiddenDrawings()
+											$begin 'DispType'
+												PlotType=1
+												$begin 'CurveMed'
+													$begin 'MedCamera'
+														$begin 'svrc'
+															svid=4
+															view(36, cam(XYCam(false, true, true, true, 0, 1, 0, 1, 0, 1, 0, 1, 0, 1)))
+														$end 'svrc'
+													$end 'MedCamera'
+												$end 'CurveMed'
+											$end 'DispType'
+										$end 'WrapperDoc'
+										WindowPos(WindowPos(5, -1, -1, -9, -38, 32, 32, 1238, 421))
+									$end 'ViewInfo'
+								$end 'Report2D'
+							$end 'WindowInfoList'
+						$end 'Current Plot 1'
+					$end 'ReportsWindowInfoList'
+				$end 'ReportSetup'
+				$begin 'Properties'
+				$end 'Properties'
+				$begin 'UserDefinedDocument'
+					$begin 'Data'
+					$end 'Data'
+				$end 'UserDefinedDocument'
+			$end 'RMxprtDesignInstance'
+		$end 'Instance'
+		$begin 'SODInfo'
+		$end 'SODInfo'
+	$end 'DataInstances'
+	$begin 'WBSystemIDToDesignInstanceIDMap'
+	$end 'WBSystemIDToDesignInstanceIDMap'
+	$begin 'WBSysIDSysDetails'
+	$end 'WBSysIDSysDetails'
+	$begin 'WBConnIDConnDetails'
+	$end 'WBConnIDConnDetails'
+	$begin 'WBMaterialGuidDetails'
+		WBMaterialGuidMap()
+	$end 'WBMaterialGuidDetails'
+	$begin 'MinervaProjectSettingsBlk'
+		MinervaRemoteFilePath=''
+		FolderContainerString=''
+	$end 'MinervaProjectSettingsBlk'
+$end 'AnsoftProject'
+$begin 'AllReferencedFilesForProject'
+$end 'AllReferencedFilesForProject'
+$begin 'ProjectPreview'
+	IsEncrypted=false
+	Thumbnail64=''
+	$begin 'DesignInfo'
+		DesignName='RMxprtDesign1'
+		Notes=''
+		Factory='RMxprt'
+		IsSolved=true
+		'Nominal Setups'[1: 'Setup1']
+		'Nominal Setup Types'[1: '']
+		'Optimetrics Setups'[0:]
+		'Optimetrics Experiment Types'[0:]
+		Image64=''
+	$end 'DesignInfo'
+$end 'ProjectPreview'

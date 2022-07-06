@@ -1,0 +1,66 @@
+Circuit_begin
+  Y_circuit
+    4391
+    4388
+   -6.780899909617287058
+   -5.9814422229141186449
+   8.5561033013765310784
+  matrixStrandI
+    CircuitMatrix_begin
+      Current_source_last 0
+      Current_source 0
+      Y2
+        1
+        0
+      Y3
+        0
+      B_Y2
+        0
+      I_loop
+        1
+        0
+      I_branch
+        1
+        0
+      Flux
+        1
+        81.965062084184111768
+      Flux_loop
+        1
+        0
+    CircuitMatrix_end
+  matrixStrandV
+    CircuitMatrix_begin
+      Current_source_last 0
+      Current_source 0
+      Y2
+        3
+        -6.780899909617287058
+        -5.9814422229141186449
+        8.5561033013765310784
+      Y3
+        0
+      B_Y2
+        0
+      I_loop
+        3
+        -6.780899909617287058
+        -5.9814422229141186449
+        8.5561033013765310784
+      I_branch
+        3
+        -6.780899909617287058
+        -5.9814422229141186449
+        8.5561033013765310784
+      Flux
+        3
+        19.1520620864166915
+        -1.1827846071117449345
+        22.431687979802806154
+      Flux_loop
+        3
+        0
+        0
+        0
+    CircuitMatrix_end
+Circuit_end

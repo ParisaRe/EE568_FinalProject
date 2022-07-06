@@ -1,7 +1,44 @@
 SimValueCacheVersionID=1
 $begin 'SimValueInfos'
-	NextUniqueID=0
+	NextUniqueID=2
 	MoveBackwards=false
+	$begin 'SimValue'
+		ID=0
+		$begin 'SimValueParams'
+			QuantityName='Moving1.LoadTorque'
+			ValueState(125, 19, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
+	$begin 'SimValue'
+		ID=1
+		$begin 'SimValueParams'
+			QuantityName='Moving1.Torque'
+			ValueState(125, 19, 1, 1)
+			MatrixSize(0, 0)
+		$end 'SimValueParams'
+	$end 'SimValue'
 $end 'SimValueInfos'
 $begin 'SimValueCache'
+	$begin 'DesignMap'
+		DesignID=9
+		$begin 'SolutionMap'
+			$begin 'ContextMap'
+				SolutionID=144
+				$begin 'VersionMap'
+					$begin 'ReportTypeSolnDef'
+						ReportType=3
+						SimValueContext(3, 0, 2, 0, false, false, -1, 1, 0, 1, 1, '', 0, 0)
+					$end 'ReportTypeSolnDef'
+					$begin 'MajorVVMap'
+						VersionID=171
+						$begin 'MinorVVMap'
+							MajorVariation='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.002H\' Ra=\'0.0087338850000000003ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\''
+							MinorCacheFile='min1E061537616571067806.tmp'
+						$end 'MinorVVMap'
+					$end 'MajorVVMap'
+				$end 'VersionMap'
+			$end 'ContextMap'
+		$end 'SolutionMap'
+	$end 'DesignMap'
 $end 'SimValueCache'

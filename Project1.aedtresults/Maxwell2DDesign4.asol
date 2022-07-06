@@ -1,81 +1,18 @@
 $begin '$base_index$'
   $begin 'properties'
     all_levels=000000000000
-    time(year=000000002022, month=000000000007, day=000000000006, hour=000000000014, min=000000000026, sec=000000000020)
+    time(year=000000002022, month=000000000007, day=000000000006, hour=000000000020, min=000000000012, sec=000000000031)
     version=000000000000
   $end 'properties'
   $begin '$base_index$'
-    $index$(pos=000000003284, lin=000000000113, lvl=000000000000)
+    $index$(pos=000000002612, lin=000000000046, lvl=000000000000)
   $end '$base_index$'
 $end '$base_index$'
-$begin 'SolutionBlock3'
-	SimSetupID=143
-	SimSetupName='Setup1'
-	VersionID=0
-	SolveSetupID=0
-	$begin 'CurrMeshes'
-		IDDblMap(198, 0.0002)
-		$begin 'DataMap'
-			VID=145
-			Ver=171
-			M(DblID=198, Dir='DV145_S143_V171.cmesh198/')
-		$end 'DataMap'
-	$end 'CurrMeshes'
-	$begin 'StartingMesh'
-		IDDblMap(196, -1)
-		$begin 'DataMap'
-			VID=145
-			Ver=0
-			SM(DblID=196, Dir='DV145_S143_V0.smesh196/')
-		$end 'DataMap'
-	$end 'StartingMesh'
-	$begin 'Profiles'
-		P(VID=145, Ver=0, File='DV145_S143_V0.profile')
-	$end 'Profiles'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=145, Ver=0, Dir='DV145_S143_MI0_V0.sd/')
-		$end 'SubData'
-	$end 'MI'
-	$begin 'MeshGeomInfo'
-		MGI(VID=145, Ver=0, Dir='DV145_S143_V0_MGI/')
-	$end 'MeshGeomInfo'
-$end 'SolutionBlock3'
-$begin 'BlockMapName'
-	FileHeader='SolutionBlock1'
-	'SolutionKey(SimSetup=143, Instance=\'SetupDefinition\', Solution=-1, VersionID=0)'='SolutionBlock3'
-	'SolutionKey(SimSetup=143, Instance=\'SolutionDefinition\', Solution=144, VersionID=171)'='SolutionBlock4'
-$end 'BlockMapName'
-$begin 'SolutionBlock1'
-	ProductName=''
-	CircuitName='Maxwell2DDesign4'
-	VersionID=140
-	PostProcess=false
-	LossLess=true
-	NextUniqueID=202
-	MoveBackwards=false
-	$begin 'VariationIDs'
-		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.002H\' Ra=\'0.0087338850000000003ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=145)
-	$end 'VariationIDs'
-	$begin 'LinkedDataList'
-	$end 'LinkedDataList'
-	$begin 'InitialMeshes'
-		M(VID=145, Ver=140, Dir='DV145_V140.imesh/')
-	$end 'InitialMeshes'
-	$begin 'MI'
-		$begin 'SubData'
-			ID=0
-			MI(VID=145, Ver=140, Dir='DV145_MI0_V140.sd/')
-		$end 'SubData'
-	$end 'MI'
-$end 'SolutionBlock1'
-$begin 'SolutionBlock4'
+$begin 'SolutionBlock50'
 	SolutionName='Transient'
 	SolutionID=144
-	V=171
+	V=383
 	$begin 'States'
-		F(VID=145, Ver=171)
 	$end 'States'
 	$begin 'Definition'
 		SamplingInterpolation=false
@@ -83,50 +20,46 @@ $begin 'SolutionBlock4'
 		SolutionType=1
 		CenterFreq=0
 	$end 'Definition'
-	$begin 'Fields'
-		IDDblMap(199, 0.0002)
-		$begin 'DataMap'
-			VID=145
-			Ver=171
-			Field(DblID=199, Dir='DV145_SOL144_V171.Field199/')
-		$end 'DataMap'
-	$end 'Fields'
-	$begin 'PD'
-		NextUniqueID=10
-		MoveBackwards=false
-		$begin 'SubData'
-			ID=0
-			Ver=0
-			PD(VID=145, Ver=0, File='DV145_SOL144_PD0_V0.sd')
-		$end 'SubData'
-		$begin 'SubData'
-			ID=1
-			Ver=0
-			PD(VID=145, Ver=0, File='DV145_SOL144_PD1_V0.sd')
-		$end 'SubData'
-		$begin 'SubData'
-			ID=2
-			Ver=0
-			PD(VID=145, Ver=0, File='DV145_SOL144_PD2_V0.sd')
-		$end 'SubData'
-	$end 'PD'
-	$begin 'NFSP'
-		$begin 'SubData'
-			ID=10
-			NFSP(VID=145, Ver=171, File='DV145_SOL144_NFSP10_V171.sd')
-		$end 'SubData'
-	$end 'NFSP'
-	$begin 'EngineSolutionData'
-		Data(VID=145, Ver=171, Dir='DV145_SOL144_V171.Data/')
-	$end 'EngineSolutionData'
-$end 'SolutionBlock4'
+$end 'SolutionBlock50'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=143, Instance=\'SetupDefinition\', Solution=-1, VersionID=382)'='SolutionBlock51'
+	'SolutionKey(SimSetup=143, Instance=\'SolutionDefinition\', Solution=144, VersionID=383)'='SolutionBlock50'
+$end 'BlockMapName'
+$begin 'SolutionBlock51'
+	SimSetupID=143
+	SimSetupName='Setup1'
+	VersionID=382
+	SolveSetupID=0
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock51'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign4'
+	VersionID=382
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=409
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.002H\' Ra=\'0.0087338850000000003ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=145)
+		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.002H\' Ra=\'0ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=269)
+		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0H\' Ra=\'0ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=270)
+		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'0deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.002H\' Ra=\'0.0087338850000000003ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=238)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'MI'
+	$end 'MI'
+$end 'SolutionBlock1'
 $begin '$index$'
 	$begin '$index$'
-		BlockMapName(pos=1120, lin=35, lvl=0)
-		SolutionBlock4(pos=2219, lin=63, lvl=0)
-		SolutionBlock3(pos=370, lin=1, lvl=0)
-		SolutionBlock1(pos=1401, lin=40, lvl=0)
+		SolutionBlock1(pos=1044, lin=27, lvl=0)
+		SolutionBlock50(pos=370, lin=1, lvl=0)
+		BlockMapName(pos=617, lin=14, lvl=0)
+		SolutionBlock51(pos=902, lin=19, lvl=0)
 		$base_index$(pos=0, lin=1, lvl=0)
-		$index$(pos=3284, lin=113, lvl=0)
+		$index$(pos=2612, lin=46, lvl=0)
 	$end '$index$'
 $end '$index$'

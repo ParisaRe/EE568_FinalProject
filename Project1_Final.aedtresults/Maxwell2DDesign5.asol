@@ -1,0 +1,161 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002022, month=000000000007, day=000000000006, hour=000000000021, min=000000000049, sec=000000000035)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000007588, lin=000000000142, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'SolutionBlock1'
+	ProductName=''
+	CircuitName='Maxwell2DDesign5'
+	VersionID=593
+	PostProcess=false
+	LossLess=true
+	NextUniqueID=785
+	MoveBackwards=false
+	$begin 'VariationIDs'
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-25.841932763167126deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' InitialPosition=\'35.714285714285715deg\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' pos_int=\'40deg\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=703)
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.550279807603999deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' InitialPosition=\'35.714285714285715deg\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' pos_int=\'40deg\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=691)
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' InitialPosition=\'35.714285714285715deg\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' pos_int=\'29.999999999999996deg\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=644)
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' InitialPosition=\'35.714285714285715deg\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' pos_int=\'35.714285714285715deg\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=622)
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' InitialPosition=\'35.714285714285715deg\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' pos_int=\'40deg\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=666)
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' InitialPosition=\'35.714285714285715deg\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=573)
+		Map(V='airgap=\'15.083683150000001mm\' cond=\'1\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=277)
+		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.00020000000000000001H\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=262)
+		Map(V='airgap=\'15.083683150000001mm\' d_o=\'5454.8083260000003mm\' d_sh=\'4000mm\' delta=\'-29.999999999999996deg\' Di=\'5484.975692mm\' Do=\'6094.4174350000003mm\' L=\'1076.9724590000001mm\' La=\'0.002H\' Ra=\'0.0086999999999999994ohm\' slot_h=\'102.077952mm\' slot_w=\'22.63265393mm\' tooth_w=\'45.746549790000003mm\'', ID=194)
+	$end 'VariationIDs'
+	$begin 'LinkedDataList'
+	$end 'LinkedDataList'
+	$begin 'InitialMeshes'
+		M(VID=573, Ver=593, Dir='DV573_V593.imesh/')
+		M(VID=644, Ver=593, Dir='DV644_V593.imesh/')
+		M(VID=666, Ver=593, Dir='DV666_V593.imesh/')
+		M(VID=691, Ver=593, Dir='DV691_V593.imesh/')
+		M(VID=703, Ver=593, Dir='DV703_V593.imesh/')
+	$end 'InitialMeshes'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=573, Ver=593, Dir='DV573_MI0_V593.sd/')
+			MI(VID=644, Ver=593, Dir='DV644_MI0_V593.sd/')
+			MI(VID=666, Ver=593, Dir='DV666_MI0_V593.sd/')
+			MI(VID=691, Ver=593, Dir='DV691_MI0_V593.sd/')
+			MI(VID=703, Ver=593, Dir='DV703_MI0_V593.sd/')
+		$end 'SubData'
+	$end 'MI'
+$end 'SolutionBlock1'
+$begin 'BlockMapName'
+	FileHeader='SolutionBlock1'
+	'SolutionKey(SimSetup=192, Instance=\'SetupDefinition\', Solution=-1, VersionID=593)'='SolutionBlock139'
+	'SolutionKey(SimSetup=192, Instance=\'SolutionDefinition\', Solution=193, VersionID=753)'='SolutionBlock145'
+$end 'BlockMapName'
+$begin 'SolutionBlock139'
+	SimSetupID=192
+	SimSetupName='Setup1'
+	VersionID=593
+	SolveSetupID=0
+	$begin 'StartingMesh'
+		IDDblMap(245, -1)
+		$begin 'DataMap'
+			VID=573
+			Ver=593
+			SM(DblID=245, Dir='DV573_S192_V593.smesh245/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=644
+			Ver=593
+			SM(DblID=245, Dir='DV644_S192_V593.smesh245/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=666
+			Ver=593
+			SM(DblID=245, Dir='DV666_S192_V593.smesh245/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=691
+			Ver=593
+			SM(DblID=245, Dir='DV691_S192_V593.smesh245/')
+		$end 'DataMap'
+		$begin 'DataMap'
+			VID=703
+			Ver=593
+			SM(DblID=245, Dir='DV703_S192_V593.smesh245/')
+		$end 'DataMap'
+	$end 'StartingMesh'
+	$begin 'Profiles'
+		P(VID=573, Ver=593, File='DV573_S192_V593.profile')
+		P(VID=644, Ver=593, File='DV644_S192_V593.profile')
+		P(VID=666, Ver=593, File='DV666_S192_V593.profile')
+		P(VID=691, Ver=593, File='DV691_S192_V593.profile')
+		P(VID=703, Ver=593, File='DV703_S192_V593.profile')
+	$end 'Profiles'
+	$begin 'MI'
+		$begin 'SubData'
+			ID=0
+			MI(VID=573, Ver=593, Dir='DV573_S192_MI0_V593.sd/')
+			MI(VID=644, Ver=593, Dir='DV644_S192_MI0_V593.sd/')
+			MI(VID=666, Ver=593, Dir='DV666_S192_MI0_V593.sd/')
+			MI(VID=691, Ver=593, Dir='DV691_S192_MI0_V593.sd/')
+			MI(VID=703, Ver=593, Dir='DV703_S192_MI0_V593.sd/')
+		$end 'SubData'
+	$end 'MI'
+	$begin 'MeshGeomInfo'
+		MGI(VID=573, Ver=593, Dir='DV573_S192_V593_MGI/')
+		MGI(VID=644, Ver=593, Dir='DV644_S192_V593_MGI/')
+		MGI(VID=666, Ver=593, Dir='DV666_S192_V593_MGI/')
+		MGI(VID=691, Ver=593, Dir='DV691_S192_V593_MGI/')
+		MGI(VID=703, Ver=593, Dir='DV703_S192_V593_MGI/')
+	$end 'MeshGeomInfo'
+$end 'SolutionBlock139'
+$begin 'SolutionBlock145'
+	SolutionName='Transient'
+	SolutionID=193
+	V=753
+	$begin 'States'
+		F(VID=703, Ver=753)
+	$end 'States'
+	$begin 'Definition'
+		SamplingInterpolation=false
+		Frequencies()
+		SolutionType=1
+		CenterFreq=0
+	$end 'Definition'
+	$begin 'PD'
+		NextUniqueID=60
+		MoveBackwards=false
+		$begin 'SubData'
+			ID=0
+			Ver=50
+			PD(VID=703, Ver=50, File='DV703_SOL193_PD0_V50.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=1
+			Ver=50
+			PD(VID=703, Ver=50, File='DV703_SOL193_PD1_V50.sd')
+		$end 'SubData'
+		$begin 'SubData'
+			ID=2
+			Ver=50
+			PD(VID=703, Ver=50, File='DV703_SOL193_PD2_V50.sd')
+		$end 'SubData'
+	$end 'PD'
+	$begin 'NFSP'
+		$begin 'SubData'
+			ID=10
+			NFSP(VID=703, Ver=753, File='DV703_SOL193_NFSP10_V753.sd')
+		$end 'SubData'
+	$end 'NFSP'
+$end 'SolutionBlock145'
+$begin '$index$'
+	$begin '$index$'
+		BlockMapName(pos=4827, lin=40, lvl=0)
+		SolutionBlock145(pos=6791, lin=103, lvl=0)
+		SolutionBlock139(pos=5114, lin=45, lvl=0)
+		SolutionBlock1(pos=370, lin=1, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=7588, lin=142, lvl=0)
+	$end '$index$'
+$end '$index$'
